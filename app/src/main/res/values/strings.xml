@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PostFetcherMVVM</string>
+    <string name="tv_txt_main_info">Scroll down for more authors and their posts\nClick on posts for further information</string>
+</resources>

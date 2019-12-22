@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tool="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/appBackground"
+                android:padding="8dp">
+
+    <TextView
+            android:id="@+id/tv_post_title_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title:"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"/>
+
+    <TextView
+            android:id="@+id/tv_post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_post_title_title"
+            android:textSize="20sp"
+            android:textColor="@color/colorLightBlue"
+            android:gravity="center"
+            tool:text="post title"
+            android:layout_marginBottom="16dp" />
+
+    <TextView
+            android:id="@+id/tv_post_author_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_title"
+            android:text="Post Author:"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp" />
+
+    <TextView
+            android:id="@+id/tv_post_author_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_author_name_title"
+            android:textSize="20sp"
+            android:textColor="@color/colorLightBlue"
+            android:gravity="center"
+            tool:text="post author"
+            android:layout_marginBottom="8dp" />
+
+    <TextView
+            android:id="@+id/tv_post_body_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_author_name"
+            android:text="Post Body:"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp" />
+
+    <TextView
+            android:id="@+id/tv_post_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_body_title"
+            android:textSize="20sp"
+            android:textColor="@color/colorLightBlue"
+            android:gravity="center"
+            tool:text="post body\n\n\n\n\n\n\n\n"
+            android:layout_marginBottom="16dp" />
+
+    <TextView
+            android:id="@+id/tv_post_comment_num_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_body"
+            android:text="No. comments:"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp" />
+
+    <TextView
+            android:id="@+id/tv_post_comment_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post_comment_num_title"
+            android:textSize="20sp"
+            android:textColor="@color/colorLightBlue"
+            android:gravity="center"
+            tool:text="post comment num" />
+
+</RelativeLayout>
